@@ -42,13 +42,13 @@ function setup() {
   chao = Bodies.rectangle(400,590,800,20,chao_options);
   World.add(world,chao);
 
-  block1 = Bodies.circle(220,10,10,block1_options);
+  block1 = Bodies.circle(220,10,30,block1_options);
   World.add(world, block1);
   
-  block2 = Bodies.rectangle(110,50,10,10,block2_options);
+  block2 = Bodies.rectangle(110,50,60,60,block2_options);
   World.add(world, block2);
 
-  block3 = Bodies.rectangle(350,50,10,10,block3_options);
+  block3 = Bodies.rectangle(350,50,80,40,block3_options);
   World.add(world, block3);
 
 }
